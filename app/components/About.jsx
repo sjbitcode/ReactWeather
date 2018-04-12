@@ -3,7 +3,7 @@ var React = require('react');
 var About = (props) => {
     return (
         <div>
-            <h1 className="text-center">About</h1>
+            <h1 className="text-center page-title">About</h1>
             <p>
                 This is a weather application built on React.
                 I have built this in the Complete React Web App Developer Course.
@@ -18,7 +18,7 @@ var About = (props) => {
                     was the Javascript framework used.
                 </li>
                 <li>
-                    <a href="http://openweathermap.org">Open Weather Map</a> - I 
+                    <a href="http://openweathermap.org">Open Weather Map</a> - I
                     used Open Weather Map to search for weather data by city name.
                 </li>
             </ul>
